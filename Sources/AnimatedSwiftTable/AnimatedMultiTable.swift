@@ -6,6 +6,8 @@
 //  Copyright © 2016 Brad Hilton. All rights reserved.
 //
 
+#if canImport(UIKit)
+import UIKit
 import SwiftTable
 import OrderedObjectSet
 import Changeset
@@ -71,5 +73,4 @@ extension AnimatedMultiTable {
     }
     
 }
-
-
+#endif
