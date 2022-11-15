@@ -1,34 +1,31 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Changeset",
-        "repositoryURL": "https://github.com/osteslag/Changeset.git",
-        "state": {
-          "branch": null,
-          "revision": "3f68006be9d378160fa154a1f239b984a459c82f",
-          "version": "3.2.0"
-        }
-      },
-      {
-        "package": "OrderedObjectSet",
-        "repositoryURL": "https://github.com/paulofaria/OrderedObjectSet.git",
-        "state": {
-          "branch": null,
-          "revision": "07e4d28e4825c98da8a35c628a3fead723c0d0b0",
-          "version": "6.0.0"
-        }
-      },
-      {
-        "package": "SwiftTable",
-        "repositoryURL": "https://github.com/paulofaria/SwiftTable.git",
-        "state": {
-          "branch": null,
-          "revision": "7ba3e44e4609efba161cef2b08f9b7be144bef8d",
-          "version": "6.0.0"
-        }
+  "pins" : [
+    {
+      "identity" : "changeset",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/osteslag/Changeset.git",
+      "state" : {
+        "revision" : "3f68006be9d378160fa154a1f239b984a459c82f",
+        "version" : "3.2.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "orderedobjectset",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SendOutCards/OrderedObjectSet.git",
+      "state" : {
+        "revision" : "c71446b97203b04166eb130cd9f5485e237a8f92",
+        "version" : "6.0.1"
+      }
+    },
+    {
+      "identity" : "swifttable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SendOutCards/SwiftTable.git",
+      "state" : {
+        "revision" : "6434d71fa3b4ac61ab6de74085d0168c089a92fd"
+      }
+    }
+  ],
+  "version" : 2
 }
